@@ -2,12 +2,12 @@
 
 class LineItem
   attr_accessor :quantity, :description, :price, :basic_tax, :import_duty
-  def initialize(quantity, description, price)
+  def initialize(quantity, description, price, basic_tax, import_duty)
     @quantity = quantity
     @description = description
     @price = price
-    @basic_tax = 0
-    @import_duty = 0
+    @basic_tax = basic_tax
+    @import_duty = import_duty
   end
 
   def self.all

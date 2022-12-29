@@ -1,12 +1,12 @@
 {
-  "basic_sales_tax": {
+  "basic_sales_tax_rate_for": {
     "all": "0.10",
     "book": "0.0",
     "food": "0.0",
     "medical": "0.0"
   },
-  "import_duty": "0.05",
-  "keywords": {
+  "import_duty_rate": "0.05",
+  "tax_free_keyword_for": {
     "book": [
       "book"
     ],
@@ -17,9 +17,9 @@
     "medical": [
       "medical",
       "pill"
-    ],
-    "imported": [
-      "imported"
     ]
-  }
+  },
+  "import_duty_keywords": [
+    "imported"
+  ]
 }
