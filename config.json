@@ -1,0 +1,25 @@
+{
+  "basic_sales_tax": {
+    "all": "0.10",
+    "book": "0.0",
+    "food": "0.0",
+    "medical": "0.0"
+  },
+  "import_duty": "0.05",
+  "keywords": {
+    "book": [
+      "book"
+    ],
+    "food": [
+      "food",
+      "chocolate"
+    ],
+    "medical": [
+      "medical",
+      "pill"
+    ],
+    "imports": [
+      "imported"
+    ]
+  }
+}
