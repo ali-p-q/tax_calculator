@@ -8,8 +8,15 @@ This is a basic text-based tax calculator program.
 1) Open a terminal, navigate to the project folder
 1) Run `ruby application.rb`
 
+To install all dependencies, please follow online guides. I recommend the following steps:
+- Install RVM
+- Install ruby through RVM
+- Install bundle
+- Install all other gems using bundle
+
 ### Dependencies
-ruby 3.1.3
+- ruby 3.1.3
+- All gems listed in Gemfile
 
 ## Input
 

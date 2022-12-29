@@ -18,7 +18,7 @@
       "medical",
       "pill"
     ],
-    "imports": [
+    "imported": [
       "imported"
     ]
   }
