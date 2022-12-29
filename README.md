@@ -6,7 +6,7 @@ This is a basic text-based tax calculator program.
 1) Clone this repository.
 1) Ensure you have all dependencies installed.
 1) Open a terminal, navigate to the project folder
-1) Run `ruby application.rb`
+1) Run `ruby bin/application.rb`
 
 To install all dependencies, please follow online guides. I recommend the following steps:
 - Install RVM
