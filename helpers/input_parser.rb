@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require "bigdecimal/util"
 
 module InputParser
   def parse(input_file_path)
@@ -8,7 +9,7 @@ module InputParser
       # Cast numeric values (assumes input file is properly formatted)
       quantity = scanned_line.first.to_i
       description = singularized_description(scanned_line, 1..scanned_line.length - 2)
-      price = scanned_line.last.to_f
+      price = scanned_line.last.to_d
       # Merge items with same description
       updated = false
       line_items.each do |li|

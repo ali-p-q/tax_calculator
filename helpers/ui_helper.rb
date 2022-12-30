@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require "bigdecimal/util"
 
 module UIHelper
   PROMPT = ">"
@@ -35,11 +36,11 @@ The file should follow the format convention specified in README.md\n"
     total_tax = 0
     total = 0
     line_items.each do |li|
-      puts "#{li.quantity} #{li.description} #{li.price}"
+      puts "#{li.quantity} #{li.description} #{li.price.to_f.round(2)}"
       total_tax += li.basic_tax + li.import_duty
       total += li.price.to_f
     end
-    puts "Sales Taxes: #{total_tax}"
+    puts "Sales Taxes: #{total_tax.to_f.round(2)}"
     puts "Total: #{total}"
     print PROMPT
   end
