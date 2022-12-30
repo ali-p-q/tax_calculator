@@ -28,7 +28,7 @@ Input should follow the format: < number > < item description > at < price >
 
 ### Examples:
 
-- 2 book at 12.49
+- 2 books at 12.49
 
 - 1 imported box of chocolates at 10.00
 
@@ -36,7 +36,7 @@ Input should follow the format: < number > < item description > at < price >
 
 ## Configuration
 
-The default configuration can be tweaked in the config/rules.json file.
+The default configuration can be tweaked in the `config/rules.json` file.
 
 The following rules are implemented by default.
 
@@ -55,6 +55,10 @@ Given shelf price p and tax rate of n%.
 A np/100 amount of sales tax is rounded up to the nearest 0.05.
 
 ### Catalog
+
+These are the terms added by default to identify books, food and medical items.
+
+More terms can be added in `config/rules.json`.
 
 - books: book
 - food: food, chocolate
