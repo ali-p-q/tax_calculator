@@ -36,7 +36,7 @@ Input should follow the format: < number > < item description > at < price >
 
 ## Configuration
 
-The default configuration can be tweak in the config.json file.
+The default configuration can be tweaked in the config/rules.json file.
 
 The following rules are implemented by default.
 
